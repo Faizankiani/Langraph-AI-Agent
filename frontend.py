@@ -141,7 +141,7 @@ user_query = st.text_area(
     label_visibility="collapsed"
 )
 
-API_URL = "http://127.0.0.1:9999/chat"
+API_URL = "https://langraph-ai-agent.onrender.com/chat"
 
 if st.button("Ask Agent!"):
     if user_query.strip():
